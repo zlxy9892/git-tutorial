@@ -70,8 +70,8 @@
 
 通常情况下，安装完Git后的第一件事就是设置**用户名称**和**邮件地址**。每一个Git的提交都会使用这些信息，如果不设置则无法进行提交。
 
-`$ git config --global user.name "goto456"    // 设置用户名称`   
-`$ git config --global user.email "goto456@126.com"    // 设置邮件地址`
+`$ git config --global user.name "<xxx>"    // 设置用户名称`   
+`$ git config --global user.email "<xxx>"   // 设置邮件地址`
 
 > 使用`--global`参数表示设置了全局的环境，如果想对与特定的项目使用不同的用户名和邮件地址，则可已在该项目目录下不使用`--global`参数设置不同的用户名和邮件地址。
 
